@@ -3,13 +3,37 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!--CSS Stylesheet-->
+    <style> 
+    body {
+	background-color: lightblue;
+	color: #ffffff; /* White */
+	font: 14px Verdana;
+	}
+	.bg-1{
+		margin-top: 100px;
+		margin-bottom: 100px;
+		background-image: lightblue;
+		/*background-image: url("background.jpg");*/
+		color: #ffffff;
+		font: 14px Verdana;
+	}
+	.bg-2{
+		width: 1000px;
+		margin: auto;
+		background-color: #474e5d; /* Dark Blue */
+		color: #ffffff;
+	}
+
+	p {font-size: 16px;}
+	</style> <!--end css-->
+
     <title>Aria Kim</title>
 
     <!-- Bootstrap -->
@@ -44,14 +68,23 @@
       	<li><a href="#">Blog</a></li>
     	</ul>
     	<ul class="nav navbar-nav navbar-right"> 	<!--rightside navbar for logo links-->
-    		<li><a href=https://github.com/ariakim><img src="githubicon.png"></a></li>
-    		<li><a href="https://www.linkedin.com/in/aria-kim-7aa394b8/"><img src="linkedinicon.png"></a></li>
+    		<li><a href=https://github.com/ariakim><img src="images/githubicon.png"></a></li>
+    		<li><a href="https://www.linkedin.com/in/aria-kim-7aa394b8/"><img src="images/linkedinicon.png"></a></li>
     	</ul> <!--end rightside navbar-->
 
   	</div>
 	</nav> <!--end navigation bar-->
 
-    <h2 align="center">Aria Kim</h2>
+    <div class="container-fluid bg-1 text-center">
+    <h1 align="center">Aria Kim</h1>
+	</div>
+
+    <!--second segment-->
+    <div class="container-fluid bg-2 text-center">
+    <h4 class="margin"> About</h4>
+    <p>I'm a software developer and writer who believes that technology should be human-centric as all technology was made by humans, for humans. Whether this comes in the form of websites, brain-computer interfaces, or video games, I always keep this in mind. Because of this, I also value holding a degree of well-roundedness, which helps keep me perspective and open-minded in any task.</p>
+    </div>
+
     <p><h4 align="center">
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
